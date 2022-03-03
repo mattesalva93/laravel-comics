@@ -36,20 +36,20 @@ body {
   height: 125px;
 }
 
-.container li {
+.container nav li {
   display: inline-block;
   margin: 0 10px;
 }
 
-.container li a {
+.container nav li a {
   text-decoration: none;
   text-transform: uppercase;
   line-height: 125px;
   color: grey;
 }
 
-.container li a.active,
-.container li a:hover {
+.container nav li a.active,
+.container nav li a:hover {
   color: #0C7CEC;
   padding: 51px 0;
   border-bottom: 5px solid #0C7CEC;
@@ -89,6 +89,7 @@ main .low-main .button-sign-up {
 main .low-main .comics-boxes {
   margin: 0 auto;
   width: 80%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -161,6 +162,7 @@ main .low-main div .button-load-more {
 
 .main-footer .container {
   position: relative;
+  display: block;
 }
 
 .main-footer .container .footer-links {
