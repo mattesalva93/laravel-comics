@@ -55,23 +55,6 @@ body {
   border-bottom: 5px solid #0C7CEC;
 }
 
-.comic-container {
-  margin: 50px 0;
-  padding: 15px;
-  height: 250px;
-  width: 15%;
-  text-align: center;
-}
-
-.comic-container h4 {
-  color: white;
-}
-
-.comic-container img {
-  height: 100%;
-  width: auto;
-}
-
 main {
   width: 100%;
   height: 1100px;
@@ -109,6 +92,23 @@ main .low-main .comics-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+main .low-main .comics-boxes .comic-container {
+  margin: 50px 0;
+  padding: 15px;
+  height: 250px;
+  width: 15%;
+  text-align: center;
+}
+
+main .low-main .comics-boxes .comic-container h4 {
+  color: white;
+}
+
+main .low-main .comics-boxes .comic-container img {
+  height: 100%;
+  width: auto;
 }
 
 main .low-main div {

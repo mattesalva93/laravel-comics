@@ -9,7 +9,12 @@
 </head>
 <body>
     @include('partials.header')
-    @include('partials.main')
+    <main>
+        <div class="top-jumbo">
+    
+        </div>
+        @yield('dc-card')
+    </main>
     @include('partials.footer')
     <script src="{{ asset('js/app.js') }}" charset="utf-8"></script>
 </body>
