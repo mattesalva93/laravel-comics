@@ -1,0 +1,126 @@
+/* ------------------------
+RESET
+------------------------ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------------
+GLOBALS
+------------------------ */
+
+/* ------------------------
+CONTAINERS
+------------------------ */
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* ------------------------
+TYPO
+------------------------ */
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+}
+
+.container li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.container li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 125px;
+  color: grey;
+}
+
+.container li a.active,
+.container li a:hover {
+  color: #0C7CEC;
+  padding: 51px 0;
+  border-bottom: 5px solid #0C7CEC;
+}
+
+.comic-container {
+  margin: 50px 0;
+  padding: 15px;
+  height: 250px;
+  width: 15%;
+  text-align: center;
+}
+
+.comic-container h4 {
+  color: white;
+}
+
+.comic-container img {
+  height: 100%;
+  width: auto;
+}
+
+main {
+  width: 100%;
+  height: 1100px;
+  background-color: #1C1C1C;
+  margin-top: 2px;
+}
+
+main .top-jumbo {
+  width: 100%;
+  height: 30%;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .low-main {
+  height: 70%;
+  position: relative;
+}
+
+main .low-main .button-sign-up {
+  padding: 12px 24px;
+  border: 2px solid #0C7CEC;
+  background-color: #0C7CEC;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: -20px;
+  left: 25%;
+}
+
+main .low-main .comics-boxes {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main .low-main div {
+  margin: 35px 0;
+  text-align: center;
+}
+
+main .low-main div .button-load-more {
+  padding: 12px 24px;
+  border: 2px solid #0C7CEC;
+  background-color: #0C7CEC;
+  color: white;
+  text-decoration: none;
+}
+

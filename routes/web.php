@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $array_fumetti = config('comics');
+    return view('main-page', ['fumetti'=>$array_fumetti]);
 });
