@@ -29,27 +29,27 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 125px;
 }
 
-.container nav li {
+header .container nav li {
   display: inline-block;
   margin: 0 10px;
 }
 
-.container nav li a {
+header .container nav li a {
   text-decoration: none;
   text-transform: uppercase;
   line-height: 125px;
   color: grey;
 }
 
-.container nav li a.active,
-.container nav li a:hover {
+header .container nav li a.active,
+header .container nav li a:hover {
   color: #0C7CEC;
   padding: 51px 0;
   border-bottom: 5px solid #0C7CEC;
@@ -57,21 +57,21 @@ body {
 
 main {
   width: 100%;
-  height: 1100px;
+  height: 1400px;
   background-color: #1C1C1C;
   margin-top: 2px;
 }
 
 main .top-jumbo {
   width: 100%;
-  height: 30%;
+  height: 35%;
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 main .low-main {
-  height: 70%;
+  height: 65%;
   position: relative;
 }
 
