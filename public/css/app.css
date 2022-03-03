@@ -124,3 +124,105 @@ main .low-main div .button-load-more {
   text-decoration: none;
 }
 
+.head-footer {
+  width: 100%;
+  background-color: #0C7CEC;
+  height: 165px;
+  z-index: 12;
+}
+
+.head-footer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-container {
+  height: 165px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.card-container img {
+  height: 40%;
+  width: auto;
+  margin-right: 10px;
+}
+
+.main-footer {
+  width: 100%;
+  height: 350px;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+.main-footer .container {
+  position: relative;
+}
+
+.main-footer .container .footer-links {
+  display: flex;
+  width: 50%;
+}
+
+.main-footer .container .footer-links div {
+  margin-right: 20px;
+}
+
+.main-footer .container .footer-links h4 {
+  margin-top: 30px;
+  color: white;
+}
+
+.main-footer .container .footer-links ul {
+  list-style-type: none;
+  margin: 15px 0;
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.main-footer .container .container-logo {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: -110px;
+}
+
+.low-footer {
+  width: 100%;
+  height: 150px;
+  background-color: #303030;
+}
+
+.low-footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.low-footer .container .button-sign-up {
+  padding: 1px 15px;
+  padding: 10px 20px;
+  border: 2px solid #0C7CEC;
+  color: white;
+  text-decoration: none;
+}
+
+.low-footer .container .icone-social {
+  display: flex;
+  align-items: center;
+}
+
+.low-footer .container .icone-social h2 {
+  margin-right: 20px;
+  color: #0C7CEC;
+}
+
+.low-footer .container .icone-social img {
+  margin: 0 10px;
+}
+
