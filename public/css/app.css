@@ -1,7 +1,6 @@
 /* ------------------------
 RESET
 ------------------------ */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,11 +10,9 @@ RESET
 /* ------------------------
 GLOBALS
 ------------------------ */
-
 /* ------------------------
 CONTAINERS
 ------------------------ */
-
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -24,7 +21,6 @@ CONTAINERS
 /* ------------------------
 TYPO
 ------------------------ */
-
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -35,21 +31,17 @@ header .container {
   align-items: center;
   height: 125px;
 }
-
 header .container nav li {
   display: inline-block;
   margin: 0 10px;
 }
-
 header .container nav li a {
   text-decoration: none;
   text-transform: uppercase;
   line-height: 125px;
   color: grey;
 }
-
-header .container nav li a.active,
-header .container nav li a:hover {
+header .container nav li a.active, header .container nav li a:hover {
   color: #0C7CEC;
   padding: 51px 0;
   border-bottom: 5px solid #0C7CEC;
@@ -61,20 +53,17 @@ main {
   background-color: #1C1C1C;
   margin-top: 2px;
 }
-
 main .top-jumbo {
   width: 100%;
   height: 35%;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url(../images/jumbotron.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 main .low-main {
   height: 65%;
   position: relative;
 }
-
 main .low-main .button-sign-up {
   padding: 12px 24px;
   border: 2px solid #0C7CEC;
@@ -85,7 +74,6 @@ main .low-main .button-sign-up {
   top: -20px;
   left: 25%;
 }
-
 main .low-main .comics-boxes {
   margin: 0 auto;
   width: 80%;
@@ -94,7 +82,6 @@ main .low-main .comics-boxes {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
 main .low-main .comics-boxes .comic-container {
   margin: 50px 0;
   padding: 15px;
@@ -102,21 +89,17 @@ main .low-main .comics-boxes .comic-container {
   width: 15%;
   text-align: center;
 }
-
 main .low-main .comics-boxes .comic-container h4 {
   color: white;
 }
-
 main .low-main .comics-boxes .comic-container img {
   height: 100%;
   width: auto;
 }
-
 main .low-main div {
   margin: 35px 0;
   text-align: center;
 }
-
 main .low-main div .button-load-more {
   padding: 12px 24px;
   border: 2px solid #0C7CEC;
@@ -131,7 +114,6 @@ main .low-main div .button-load-more {
   height: 165px;
   z-index: 12;
 }
-
 .head-footer .container {
   display: flex;
   justify-content: space-around;
@@ -144,7 +126,6 @@ main .low-main div .button-load-more {
   color: white;
   text-transform: uppercase;
 }
-
 .card-container img {
   height: 40%;
   width: auto;
@@ -154,38 +135,32 @@ main .low-main div .button-load-more {
 .main-footer {
   width: 100%;
   height: 350px;
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url(../images/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
 }
-
 .main-footer .container {
   position: relative;
   display: block;
 }
-
 .main-footer .container .footer-links {
   display: flex;
   width: 50%;
 }
-
 .main-footer .container .footer-links div {
   margin-right: 20px;
 }
-
 .main-footer .container .footer-links h4 {
   margin-top: 30px;
   color: white;
 }
-
 .main-footer .container .footer-links ul {
   list-style-type: none;
   margin: 15px 0;
   color: grey;
   font-size: 0.9rem;
 }
-
 .main-footer .container .container-logo {
   width: 50%;
   position: absolute;
@@ -198,14 +173,12 @@ main .low-main div .button-load-more {
   height: 150px;
   background-color: #303030;
 }
-
 .low-footer .container {
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .low-footer .container .button-sign-up {
   padding: 1px 15px;
   padding: 10px 20px;
@@ -213,18 +186,14 @@ main .low-main div .button-load-more {
   color: white;
   text-decoration: none;
 }
-
 .low-footer .container .icone-social {
   display: flex;
   align-items: center;
 }
-
 .low-footer .container .icone-social h2 {
   margin-right: 20px;
   color: #0C7CEC;
 }
-
 .low-footer .container .icone-social img {
   margin: 0 10px;
 }
-

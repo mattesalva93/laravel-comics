@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <div>
-            <img src="{{asset('images/dc-logo.png')}}" alt="">
+            <img src="{{ asset('images/dc-logo.png') }}" alt="">
         </div>
         <nav>
             <ul>
@@ -58,4 +58,4 @@
             </ul>
         </nav>
     </div>
-  </header>
+</header>
